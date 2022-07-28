@@ -3,6 +3,9 @@ from pyspark.sql import *
 from pyspark.sql import functions as F
 from utility import *
 
+"""
+This is driver class. starting point of your program
+"""
 spark = getSparkSession("sample-pyspark")
 
 emp = [("John", 5000),
